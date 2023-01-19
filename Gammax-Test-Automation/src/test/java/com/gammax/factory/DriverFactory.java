@@ -19,7 +19,7 @@ public class DriverFactory {
 		switch (browser) {
 
 		case BROWSER_CHROME: {
-			System.setProperty("webdriver.chrome.driver","chromedriver_mac_arm64/chromedriver");
+			System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver_mac_arm64/chromedriver");
 			driver = new ChromeDriver();
 			break;
 		}
