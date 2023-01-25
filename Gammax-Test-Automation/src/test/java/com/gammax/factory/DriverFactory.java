@@ -1,10 +1,18 @@
 package com.gammax.factory;
 
+import com.gammax.constants.FrameworkConstants;
+import com.gammax.hooks.MyHooks;
+import com.gammax.utils.ConfigLoader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.Assert;
+
+import java.io.File;
+import java.time.Duration;
 
 import static com.gammax.constants.FrameworkConstants.BROWSER_CHROME;
 import static com.gammax.constants.FrameworkConstants.BROWSER_FIREFOX;
@@ -12,14 +20,15 @@ import static com.gammax.constants.FrameworkConstants.BROWSER_SAFARI;
 import static com.gammax.constants.FrameworkConstants.BROWSER_EDGE;
 
 public class DriverFactory {
+	public static WebDriver driver;
 
-	public static WebDriver initializeDriver(String browser) {
-		WebDriver driver;
-
+	public static void initializeDriver(String browser) {
 		switch (browser) {
 
 		case BROWSER_CHROME: {
-			System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver_mac_arm64/chromedriver");
+			System.out.println(System.getProperty("user.dir"));
+//			ChromeOptions opt = new ChromeOptions();
+//			opt.addExtensions(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\extension_10_24_1_0.crx"));
 			driver = new ChromeDriver();
 			break;
 		}
@@ -39,7 +48,12 @@ public class DriverFactory {
 			throw new IllegalStateException("INVALID BROWSER: " + browser);
 		}
 		driver.manage().window().maximize();
+		driver.get(ConfigLoader.getInstance().getBaseUrl());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(FrameworkConstants.IMPLICIT_WAIT));
+		Assert.assertTrue(MyHooks.driver.getTitle().contains("Gammax"));
+	}
 
-		return driver;
+	public static void quitDriver(){
+		driver.quit();
 	}
 }

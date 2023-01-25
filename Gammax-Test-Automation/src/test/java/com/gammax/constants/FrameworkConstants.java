@@ -4,7 +4,7 @@ public class FrameworkConstants {
 
 	// public static final String STORE = "/store";
 	public static final int EXPLICIT_WAIT = 10;
-
+	public static final int IMPLICIT_WAIT = 10;
 	public static final String YES = "yes";
 	public static final String NO = "no";
 

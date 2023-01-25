@@ -5,9 +5,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
+		<maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
 		<maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
-		<maven.compiler.source>8</maven.compiler.source>
-		<maven.compiler.target>8</maven.compiler.target>
+		<maven.compiler.source.version>11</maven.compiler.source.version>
+		<maven.compiler.target.version>11</maven.compiler.target.version>
 		<cucumber.version>7.2.0</cucumber.version>
 		<selenium.version>4.7.1</selenium.version>
 	</properties>
@@ -16,8 +17,26 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin.version}</version>
+				<configuration>
+					<source>${maven.compiler.source.version}</source> <!--For JAVA 8 use 1.8-->
+					<target>${maven.compiler.target.version}</target> <!--For JAVA 8 use 1.8-->
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.plugin.version}</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testNG.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<extent.reporter.spark.start>true</extent.reporter.spark.start>
+						<extent.reporter.spark.out>Spark.html</extent.reporter.spark.out>
+					</systemPropertyVariables>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
@@ -61,9 +80,14 @@
 			<version>5.0.9</version>
 		</dependency>
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.22</version>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
 		</dependency>
 	</dependencies>
 </project>

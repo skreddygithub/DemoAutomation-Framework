@@ -15,13 +15,12 @@ public class addtocart {
 
     @Given("I'm on the Gammax Page")
     public void i_m_on_the_gammax_page() throws InterruptedException {
-        MyHooks.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         Thread.sleep(10000);
-        Assert.assertEquals(MyHooks.driver.getTitle(), "Gammax");
+
     }
     @When("I add a {string} to the cart")
     public void i_add_a_to_the_cart(String string) {
-        HomePage home = new HomePage(MyHooks.driver);
+        HomePage home = PageFactoryManager.getHomePage(MyHooks.driver);
         home.clickConnectWallet();
     }
     @Then("I should see {int} {string} in the cart")
