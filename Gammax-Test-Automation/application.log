@@ -1,0 +1,384 @@
+2023-01-30 09:20:26,748  INFO [main] DriverFactory:37 - ************Initializing the browser chrome********************
+2023-01-30 09:20:27,181 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-01-30 09:20:27,182 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-01-30 09:20:27,183 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-01-30 09:20:27,185 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@47d7bfb3
+2023-01-30 09:20:27,191 DEBUG [main] PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-01-30 09:20:27,191 DEBUG [main] PlatformDependent0:1000 - Java version: 19
+2023-01-30 09:20:27,191 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-01-30 09:20:27,191 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-01-30 09:20:27,192 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-01-30 09:20:27,192 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-01-30 09:20:27,192 DEBUG [main] PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-01-30 09:20:27,192 DEBUG [main] PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-01-30 09:20:27,193 DEBUG [main] PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @39ba5a14
+2023-01-30 09:20:27,193 DEBUG [main] PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-01-30 09:20:27,193 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-01-30 09:20:27,198 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 4294967296 bytes (maybe)
+2023-01-30 09:20:27,198 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: /var/folders/d3/xl79sqps0q57_rbl6fl2j_mm0000gn/T (java.io.tmpdir)
+2023-01-30 09:20:27,198 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-01-30 09:20:27,198 DEBUG [main] PlatformDependent:1127 - Platform: MacOS
+2023-01-30 09:20:27,199 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-01-30 09:20:27,199 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-01-30 09:20:27,199 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-01-30 09:20:27,200 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-01-30 09:20:27,205 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-01-30 09:20:27,214 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-01-30 09:20:27,214 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-01-30 09:20:27,284 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-01-30 09:20:27,284 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-01-30 09:20:27,292 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2023-01-30 09:20:27,295 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-01-30 09:20:27,296 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-01-30 09:20:27,306 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-01-30 09:20:27,307 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-01-30 09:20:27,307 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-01-30 09:20:27,311 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-01-30 09:20:27,311 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-01-30 09:20:27,311 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-01-30 09:20:29,635 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 8485 (auto-detected)
+2023-01-30 09:20:29,636 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2023-01-30 09:20:29,636 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2023-01-30 09:20:29,638 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2023-01-30 09:20:29,639 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2023-01-30 09:20:29,640 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: c8:89:f3:ff:fe:b1:30:da (auto-detected)
+2023-01-30 09:20:29,656 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-01-30 09:20:29,656 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-01-30 09:20:29,656 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@286eb3f8
+2023-01-30 09:20:29,662 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-01-30 09:20:29,663 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-01-30 09:20:29,663 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-01-30 09:20:29,663 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-01-30 09:20:45,379 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-01-30 09:20:45,430 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x775271ef37fa1801
+2023-01-30 09:20:46,073  INFO [main] EventListener:21 - 2023_01_30 09:20:45 : Before navigating to: 'https://testnet.gammax.exchange/trade/1INCH-USDT'
+2023-01-30 09:21:17,676  INFO [main] EventListener:25 - 2023_01_30 09:20:45 : Navigated to:'https://testnet.gammax.exchange/trade/1INCH-USDT'
+2023-01-30 09:21:17,755  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Import an existing wallet'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:17,918  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Import an existing wallet']
+2023-01-30 09:21:17,922  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Import an existing wallet']]
+2023-01-30 09:21:18,924  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Import an existing wallet']]
+2023-01-30 09:21:18,924  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='I agree'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:18,960  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='I agree']
+2023-01-30 09:21:18,962  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='I agree']]
+2023-01-30 09:21:19,693  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='I agree']]
+2023-01-30 09:21:19,694  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-0'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:20,663  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-0']
+2023-01-30 09:21:21,702  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-1'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:21,712  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-1']
+2023-01-30 09:21:22,801  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-2'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:22,811  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-2']
+2023-01-30 09:21:23,066  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-3'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:23,084  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-3']
+2023-01-30 09:21:23,287  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-4'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:23,296  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-4']
+2023-01-30 09:21:23,486  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-5'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:23,521  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-5']
+2023-01-30 09:21:23,786  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-6'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:23,797  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-6']
+2023-01-30 09:21:24,280  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-7'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:24,290  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-7']
+2023-01-30 09:21:24,482  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-8'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:24,490  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-8']
+2023-01-30 09:21:24,703  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-9'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:24,721  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-9']
+2023-01-30 09:21:24,888  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-10'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:24,901  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-10']
+2023-01-30 09:21:25,087  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@id='import-srp__srp-word-11'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:25,111  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@id='import-srp__srp-word-11']
+2023-01-30 09:21:25,516  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Confirm Secret Recovery Phrase'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:25,525  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Confirm Secret Recovery Phrase']
+2023-01-30 09:21:25,525  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Confirm Secret Recovery Phrase']]
+2023-01-30 09:21:25,864  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Confirm Secret Recovery Phrase']]
+2023-01-30 09:21:25,864  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@type='password'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:25,893  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@type='password']
+2023-01-30 09:21:26,246  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@type='password'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:26,254  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@type='password']
+2023-01-30 09:21:26,406  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //input[@type='checkbox'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:26,415  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //input[@type='checkbox']
+2023-01-30 09:21:26,415  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //input[@type='checkbox']]
+2023-01-30 09:21:26,531  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //input[@type='checkbox']]
+2023-01-30 09:21:26,532  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Import my wallet'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:26,540  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Import my wallet']
+2023-01-30 09:21:26,540  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Import my wallet']]
+2023-01-30 09:21:27,226  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Import my wallet']]
+2023-01-30 09:21:30,240  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Got it!'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:30,263  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Got it!']
+2023-01-30 09:21:30,264  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Got it!']]
+2023-01-30 09:21:31,220  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Got it!']]
+2023-01-30 09:21:31,221  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Next'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:31,376  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Next']
+2023-01-30 09:21:31,376  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Next']]
+2023-01-30 09:21:31,956  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Next']]
+2023-01-30 09:21:31,957  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Done'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:31,978  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Done']
+2023-01-30 09:21:31,978  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Done']]
+2023-01-30 09:21:32,113  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Done']]
+2023-01-30 09:21:32,113  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[@class='home__subheader-link--tooltip-content-header-button'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:32,795  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[@class='home__subheader-link--tooltip-content-header-button']
+2023-01-30 09:21:32,796  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[@class='home__subheader-link--tooltip-content-header-button']]
+2023-01-30 09:21:32,844  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[@class='home__subheader-link--tooltip-content-header-button']]
+2023-01-30 09:21:32,845  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[@data-testid='network-display'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:32,854  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[@data-testid='network-display']
+2023-01-30 09:21:32,854  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[@data-testid='network-display']]
+2023-01-30 09:21:33,217  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[@data-testid='network-display']]
+2023-01-30 09:21:33,218  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Add network'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:33,230  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Add network']
+2023-01-30 09:21:33,230  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Add network']]
+2023-01-30 09:21:33,466  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Add network']]
+2023-01-30 09:21:33,466  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[text()='Advanced'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:33,528  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[text()='Advanced']
+2023-01-30 09:21:33,528  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()='Advanced']]
+2023-01-30 09:21:33,942  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()='Advanced']]
+2023-01-30 09:21:33,942  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //span[text()='Show test networks']/../../div[2]/div/label/div[1] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:33,974  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //span[text()='Show test networks']/../../div[2]/div/label/div[1]
+2023-01-30 09:21:33,974  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //span[text()='Show test networks']/../../div[2]/div/label/div[1]]
+2023-01-30 09:21:34,105  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //span[text()='Show test networks']/../../div[2]/div/label/div[1]]
+2023-01-30 09:21:34,105  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Save'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:34,141  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Save']
+2023-01-30 09:21:34,142  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Save']]
+2023-01-30 09:21:34,351  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Save']]
+2023-01-30 09:21:34,352  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[@data-testid='network-display'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:34,361  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[@data-testid='network-display']
+2023-01-30 09:21:34,361  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[@data-testid='network-display']]
+2023-01-30 09:21:34,536  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[@data-testid='network-display']]
+2023-01-30 09:21:34,536  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //span[text()='Goerli test network'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:34,835  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //span[text()='Goerli test network']
+2023-01-30 09:21:34,836  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //span[text()='Goerli test network']]
+2023-01-30 09:21:34,931  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //span[text()='Goerli test network']]
+2023-01-30 09:21:34,931  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //button[text()='Save'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:35,079  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //button[text()='Save']
+2023-01-30 09:21:35,080  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Save']]
+2023-01-30 09:21:35,327  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //button[text()='Save']]
+2023-01-30 09:21:49,372  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[text()='Connect Wallet'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:49,469  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[text()='Connect Wallet']
+2023-01-30 09:21:49,491  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[text()='Connect Wallet'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:49,497  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[text()='Connect Wallet']
+2023-01-30 09:21:49,502  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[text()='Connect Wallet'] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:49,507  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[text()='Connect Wallet']
+2023-01-30 09:21:49,507  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()='Connect Wallet']]
+2023-01-30 09:21:50,081  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()='Connect Wallet']]
+2023-01-30 09:21:50,650  INFO [main] EventListener:68 - 2023_01_30 09:20:45Just before finding element: By.xpath: //div[text()=' Get started '] on browser: ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)
+2023-01-30 09:21:50,661  INFO [main] EventListener:77 - 2023_01_30 09:20:45Found Element By : By.xpath: //div[text()=' Get started ']
+2023-01-30 09:21:50,661  INFO [main] EventListener:37 - 2023_01_30 09:20:45 : Trying to click on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()=' Get started ']]
+2023-01-30 09:21:51,115  INFO [main] EventListener:41 - 2023_01_30 09:20:45 : Clicked on: [[ChromeDriver: chrome on MAC (beb52a98c0c46e1901bc62ecf913c2b2)] -> xpath: //div[text()=' Get started ']]
+2023-01-30 09:21:56,782 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,782 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_CA.ftl"): Not found
+2023-01-30 09:21:56,783 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2023-01-30 09:21:56,783 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2023-01-30 09:21:56,783 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2023-01-30 09:21:56,804 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_CA.ftl"): Not found
+2023-01-30 09:21:56,805 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-01-30 09:21:56,805 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-01-30 09:21:56,805 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2023-01-30 09:21:56,834 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,834 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_CA.ftl"): Not found
+2023-01-30 09:21:56,834 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2023-01-30 09:21:56,834 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2023-01-30 09:21:56,834 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2023-01-30 09:21:56,838 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,838 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_CA.ftl"): Not found
+2023-01-30 09:21:56,838 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2023-01-30 09:21:56,838 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2023-01-30 09:21:56,838 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2023-01-30 09:21:56,839 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,839 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_CA.ftl"): Not found
+2023-01-30 09:21:56,839 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2023-01-30 09:21:56,839 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2023-01-30 09:21:56,839 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2023-01-30 09:21:56,840 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_CA.ftl"): Not found
+2023-01-30 09:21:56,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2023-01-30 09:21:56,841 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2023-01-30 09:21:56,841 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2023-01-30 09:21:56,842 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-01-30 09:21:56,842 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,842 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_CA.ftl"): Not found
+2023-01-30 09:21:56,843 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2023-01-30 09:21:56,843 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2023-01-30 09:21:56,843 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2023-01-30 09:21:56,860 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_CA.ftl"): Not found
+2023-01-30 09:21:56,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-01-30 09:21:56,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-01-30 09:21:56,861 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2023-01-30 09:21:56,862 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,862 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_CA.ftl"): Not found
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_CA.ftl"): Not found
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-01-30 09:21:56,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-01-30 09:21:56,864 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2023-01-30 09:21:56,865 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,866 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_CA.ftl"): Not found
+2023-01-30 09:21:56,866 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-01-30 09:21:56,866 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-01-30 09:21:56,866 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2023-01-30 09:21:56,870 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,870 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_CA.ftl"): Not found
+2023-01-30 09:21:56,870 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2023-01-30 09:21:56,871 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2023-01-30 09:21:56,871 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2023-01-30 09:21:56,878 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,878 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_CA.ftl"): Not found
+2023-01-30 09:21:56,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2023-01-30 09:21:56,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2023-01-30 09:21:56,895 DEBUG [main] cache:45 - Loading template for "spark/partials/bdd-content.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+2023-01-30 09:21:56,905 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_CA.ftl"): Not found
+2023-01-30 09:21:56,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2023-01-30 09:21:56,905 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2023-01-30 09:21:56,905 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2023-01-30 09:21:56,906 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,906 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_CA.ftl"): Not found
+2023-01-30 09:21:56,906 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2023-01-30 09:21:56,906 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2023-01-30 09:21:56,907 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2023-01-30 09:21:56,908 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,908 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_CA.ftl"): Not found
+2023-01-30 09:21:56,908 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2023-01-30 09:21:56,908 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2023-01-30 09:21:56,908 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2023-01-30 09:21:56,909 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_CA.ftl"): Not found
+2023-01-30 09:21:56,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2023-01-30 09:21:56,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2023-01-30 09:21:56,909 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2023-01-30 09:21:56,910 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,910 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_CA.ftl"): Not found
+2023-01-30 09:21:56,910 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2023-01-30 09:21:56,910 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2023-01-30 09:21:56,910 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2023-01-30 09:21:56,911 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,911 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_CA.ftl"): Not found
+2023-01-30 09:21:56,911 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2023-01-30 09:21:56,911 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2023-01-30 09:21:56,912 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2023-01-30 09:21:56,926 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,926 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_CA.ftl"): Not found
+2023-01-30 09:21:56,927 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-01-30 09:21:56,927 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-01-30 09:21:56,927 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2023-01-30 09:21:56,927 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,927 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_CA.ftl"): Not found
+2023-01-30 09:21:56,928 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-01-30 09:21:56,928 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-01-30 09:21:56,928 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2023-01-30 09:21:56,931 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,931 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_CA.ftl"): Not found
+2023-01-30 09:21:56,931 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2023-01-30 09:21:56,931 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2023-01-30 09:21:56,931 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2023-01-30 09:21:56,932 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_CA.ftl"): Not found
+2023-01-30 09:21:56,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-01-30 09:21:56,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-01-30 09:21:56,932 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2023-01-30 09:21:56,934 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,934 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_CA.ftl"): Not found
+2023-01-30 09:21:56,934 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2023-01-30 09:21:56,934 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2023-01-30 09:21:56,934 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2023-01-30 09:21:56,936 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,936 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_CA.ftl"): Not found
+2023-01-30 09:21:56,936 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2023-01-30 09:21:56,936 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2023-01-30 09:21:56,936 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_CA.ftl"): Not found
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2023-01-30 09:21:56,937 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_CA.ftl"): Not found
+2023-01-30 09:21:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2023-01-30 09:21:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2023-01-30 09:21:56,938 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2023-01-30 09:21:56,939 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-01-30 09:21:56,939 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,939 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_CA.ftl"): Not found
+2023-01-30 09:21:56,939 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2023-01-30 09:21:56,939 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2023-01-30 09:21:56,940 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2023-01-30 09:21:56,941 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,941 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_CA.ftl"): Not found
+2023-01-30 09:21:56,941 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-01-30 09:21:56,941 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-01-30 09:21:56,941 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2023-01-30 09:21:56,942 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,942 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_CA.ftl"): Not found
+2023-01-30 09:21:56,942 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_CA.ftl"): Not found
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-01-30 09:21:56,943 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2023-01-30 09:21:56,944 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_CA.ftl"): Not found
+2023-01-30 09:21:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-01-30 09:21:56,944 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-01-30 09:21:56,944 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2023-01-30 09:21:56,946 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,946 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_CA.ftl"): Not found
+2023-01-30 09:21:56,946 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2023-01-30 09:21:56,946 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2023-01-30 09:21:56,946 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2023-01-30 09:21:56,949 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,949 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_CA.ftl"): Not found
+2023-01-30 09:21:56,949 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2023-01-30 09:21:56,949 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2023-01-30 09:21:56,950 DEBUG [main] cache:45 - Loading template for "spark/partials/bdd-content.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_CA.ftl"): Not found
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2023-01-30 09:21:56,952 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_CA.ftl"): Not found
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,953 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_CA.ftl"): Not found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_CA.ftl"): Not found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2023-01-30 09:21:56,954 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_CA.ftl"): Not found
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_CA.ftl"): Not found
+2023-01-30 09:21:56,955 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2023-01-30 09:21:56,956 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2023-01-30 09:21:56,956 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2023-01-30 09:21:56,961 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_CA.ftl"): Not found
+2023-01-30 09:21:56,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-01-30 09:21:56,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-01-30 09:21:56,961 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2023-01-30 09:21:56,962 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-01-30 09:21:56,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_CA.ftl"): Not found
+2023-01-30 09:21:56,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-01-30 09:21:56,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-01-30 09:21:56,962 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/shyamreddykallu/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
